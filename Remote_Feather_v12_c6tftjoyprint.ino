@@ -1,11 +1,4 @@
-/* Info
-ESP32-s3 tft feather reverse
-board: esp32, adafruit feather esp32-s3 reverse tft
-       esp32 v3.3.0,  arduino esp32 boards v2.0.18-arduino5
-additional urls: https://dl.espressif.com/dl/package_esp32_index.json
-https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
-arduino ide v2.3.5
-
+/*
 
  TODO:
 REMOVE LINES WITH *********** Also in other tabs
@@ -105,8 +98,8 @@ int espnow_connected = 0;  // if connected will light up green
 //String success;  // Variable to store if sending data was successful
 
 // REPLACE WITH THE MAC Address of your receivers
-uint8_t broadcastAddress_M1[] = {0x54, 0x32, 0x04, 0x08, 0x4F, 0x1C};   // blackled //c6= 54:32:04:ff:fe:08:4f:1c. 54:32:04:08:4F:1C
-uint8_t broadcastAddress_M2[] = {0x68, 0x67, 0x25, 0x07, 0x80, 0x50};   // blueled
+uint8_t broadcastAddress_M1[] = {}
+uint8_t broadcastAddress_M2[] = {};  
 
 // Define variables to store readings to be sent
 int send_speed = 0;
