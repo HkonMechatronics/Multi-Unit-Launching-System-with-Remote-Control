@@ -1,8 +1,3 @@
-/*Info:
-Using esp32 bord version 3.2.0
-esp32servo version 3.0.6
-esp32c6 mini devkit
-*/
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Libraries
@@ -37,7 +32,7 @@ int espnow_connected = 0;  // if connected will light up green
 //String success;  // Variable to store if sending data was successful
 
 // REPLACE WITH THE MAC Address of your receiver 
-uint8_t broadcastAddress_Remote[] = {0x28, 0x37, 0x2F, 0x8C, 0xA8, 0x44};  // 68:67:25:E7:3E:90 ,  {0x24, 0xEC, 0x4A, 0x31, 0x87, 0x74}
+uint8_t broadcastAddress_Remote[] = {};  
 
 // Define variables to store readings to be sent
 int send_speed = 0;
